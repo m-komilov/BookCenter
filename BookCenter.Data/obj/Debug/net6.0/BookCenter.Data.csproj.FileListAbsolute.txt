@@ -1,0 +1,17 @@
+C:\Users\M_Komilov\source\repos\BookCenter\BookCenter.Data\bin\Debug\net6.0\BookCenter.Data.deps.json
+C:\Users\M_Komilov\source\repos\BookCenter\BookCenter.Data\bin\Debug\net6.0\BookCenter.Data.runtimeconfig.json
+C:\Users\M_Komilov\source\repos\BookCenter\BookCenter.Data\bin\Debug\net6.0\BookCenter.Data.dll
+C:\Users\M_Komilov\source\repos\BookCenter\BookCenter.Data\bin\Debug\net6.0\BookCenter.Data.pdb
+C:\Users\M_Komilov\source\repos\BookCenter\BookCenter.Data\bin\Debug\net6.0\BookCenter.Domain.dll
+C:\Users\M_Komilov\source\repos\BookCenter\BookCenter.Data\bin\Debug\net6.0\BookCenter.Domain.pdb
+C:\Users\M_Komilov\source\repos\BookCenter\BookCenter.Data\obj\Debug\net6.0\BookCenter.Data.csproj.AssemblyReference.cache
+C:\Users\M_Komilov\source\repos\BookCenter\BookCenter.Data\obj\Debug\net6.0\BookCenter.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M_Komilov\source\repos\BookCenter\BookCenter.Data\obj\Debug\net6.0\BookCenter.Data.AssemblyInfoInputs.cache
+C:\Users\M_Komilov\source\repos\BookCenter\BookCenter.Data\obj\Debug\net6.0\BookCenter.Data.AssemblyInfo.cs
+C:\Users\M_Komilov\source\repos\BookCenter\BookCenter.Data\obj\Debug\net6.0\BookCenter.Data.csproj.CoreCompileInputs.cache
+C:\Users\M_Komilov\source\repos\BookCenter\BookCenter.Data\obj\Debug\net6.0\BookCenter.Data.csproj.CopyComplete
+C:\Users\M_Komilov\source\repos\BookCenter\BookCenter.Data\obj\Debug\net6.0\BookCenter.Data.dll
+C:\Users\M_Komilov\source\repos\BookCenter\BookCenter.Data\obj\Debug\net6.0\refint\BookCenter.Data.dll
+C:\Users\M_Komilov\source\repos\BookCenter\BookCenter.Data\obj\Debug\net6.0\BookCenter.Data.pdb
+C:\Users\M_Komilov\source\repos\BookCenter\BookCenter.Data\obj\Debug\net6.0\BookCenter.Data.genruntimeconfig.cache
+C:\Users\M_Komilov\source\repos\BookCenter\BookCenter.Data\obj\Debug\net6.0\ref\BookCenter.Data.dll

@@ -1,0 +1,12 @@
+C:\Users\M_Komilov\source\repos\BookCenter\BookCenter.Domain\obj\Debug\net6.0\BookCenter.Domain.csproj.AssemblyReference.cache
+C:\Users\M_Komilov\source\repos\BookCenter\BookCenter.Domain\obj\Debug\net6.0\BookCenter.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M_Komilov\source\repos\BookCenter\BookCenter.Domain\obj\Debug\net6.0\BookCenter.Domain.AssemblyInfoInputs.cache
+C:\Users\M_Komilov\source\repos\BookCenter\BookCenter.Domain\obj\Debug\net6.0\BookCenter.Domain.AssemblyInfo.cs
+C:\Users\M_Komilov\source\repos\BookCenter\BookCenter.Domain\obj\Debug\net6.0\BookCenter.Domain.csproj.CoreCompileInputs.cache
+C:\Users\M_Komilov\source\repos\BookCenter\BookCenter.Domain\bin\Debug\net6.0\BookCenter.Domain.deps.json
+C:\Users\M_Komilov\source\repos\BookCenter\BookCenter.Domain\bin\Debug\net6.0\BookCenter.Domain.dll
+C:\Users\M_Komilov\source\repos\BookCenter\BookCenter.Domain\bin\Debug\net6.0\BookCenter.Domain.pdb
+C:\Users\M_Komilov\source\repos\BookCenter\BookCenter.Domain\obj\Debug\net6.0\BookCenter.Domain.dll
+C:\Users\M_Komilov\source\repos\BookCenter\BookCenter.Domain\obj\Debug\net6.0\refint\BookCenter.Domain.dll
+C:\Users\M_Komilov\source\repos\BookCenter\BookCenter.Domain\obj\Debug\net6.0\BookCenter.Domain.pdb
+C:\Users\M_Komilov\source\repos\BookCenter\BookCenter.Domain\obj\Debug\net6.0\ref\BookCenter.Domain.dll

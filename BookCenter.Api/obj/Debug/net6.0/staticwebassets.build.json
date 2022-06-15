@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "BdAdyVM5+jZdBv4lYZ28ucou+lwMOzdUvpThaLrAiB8=",
+  "Source": "BookCenter.Api",
+  "BasePath": "_content/BookCenter.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

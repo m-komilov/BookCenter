@@ -1,0 +1,229 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\M_Komilov\\source\\repos\\BookCenter\\BookCenter.Api\\BookCenter.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\M_Komilov\\source\\repos\\BookCenter\\BookCenter.Api\\BookCenter.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\M_Komilov\\source\\repos\\BookCenter\\BookCenter.Api\\BookCenter.Api.csproj",
+        "projectName": "BookCenter.Api",
+        "projectPath": "C:\\Users\\M_Komilov\\source\\repos\\BookCenter\\BookCenter.Api\\BookCenter.Api.csproj",
+        "packagesPath": "C:\\Users\\M_Komilov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\M_Komilov\\source\\repos\\BookCenter\\BookCenter.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\M_Komilov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\M_Komilov\\source\\repos\\BookCenter\\BookCenter.Data\\BookCenter.Data.csproj": {
+                "projectPath": "C:\\Users\\M_Komilov\\source\\repos\\BookCenter\\BookCenter.Data\\BookCenter.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\M_Komilov\\source\\repos\\BookCenter\\BookCenter.Data\\BookCenter.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\M_Komilov\\source\\repos\\BookCenter\\BookCenter.Data\\BookCenter.Data.csproj",
+        "projectName": "BookCenter.Data",
+        "projectPath": "C:\\Users\\M_Komilov\\source\\repos\\BookCenter\\BookCenter.Data\\BookCenter.Data.csproj",
+        "packagesPath": "C:\\Users\\M_Komilov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\M_Komilov\\source\\repos\\BookCenter\\BookCenter.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\M_Komilov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\M_Komilov\\source\\repos\\BookCenter\\BookCenter.Domain\\BookCenter.Domain.csproj": {
+                "projectPath": "C:\\Users\\M_Komilov\\source\\repos\\BookCenter\\BookCenter.Domain\\BookCenter.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\M_Komilov\\source\\repos\\BookCenter\\BookCenter.Domain\\BookCenter.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\M_Komilov\\source\\repos\\BookCenter\\BookCenter.Domain\\BookCenter.Domain.csproj",
+        "projectName": "BookCenter.Domain",
+        "projectPath": "C:\\Users\\M_Komilov\\source\\repos\\BookCenter\\BookCenter.Domain\\BookCenter.Domain.csproj",
+        "packagesPath": "C:\\Users\\M_Komilov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\M_Komilov\\source\\repos\\BookCenter\\BookCenter.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\M_Komilov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
