@@ -7,8 +7,6 @@ using BookCenter.Domain.Enums;
 using BookCenter.Service.DTOs.Books;
 using BookCenter.Service.Extensions;
 using BookCenter.Service.Interfaces;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
 using System.Linq.Expressions;
 
 #pragma warning disable
@@ -114,7 +112,7 @@ namespace BookCenter.Service.Services
             book.NumberOfPages = bookDto.NumberOfPages;
             book.Publisher = bookDto.Publisher;
             book.DatePublished = bookDto.DatePublished;
-            
+
             book.Update();
 
             var result = await unitOfWork.Books.UpdateAsync(book);
