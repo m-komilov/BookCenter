@@ -7,6 +7,6 @@
         public string? Authors { get; set; }
         public int NumberOfPages { get; set; }
         public string? Publisher { get; set; }
-        public DateTime DatePublished { get; set; }
+        public string? DatePublished { get; set; }
     }
 }

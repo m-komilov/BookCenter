@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BookCenter.Data.Migrations
 {
     [DbContext(typeof(BookCenterDbContext))]
-    [Migration("20220616041044_First Migration")]
-    partial class FirstMigration
+    [Migration("20220616071832_init")]
+    partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -36,8 +36,8 @@ namespace BookCenter.Data.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime>("DatePublished")
-                        .HasColumnType("datetime2");
+                    b.Property<string>("DatePublished")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ISBN")
                         .HasColumnType("nvarchar(max)");

@@ -1,10 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
 namespace BookCenter.Data.Migrations
 {
-    public partial class FirstMigration : Migration
+    public partial class init : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -18,7 +19,7 @@ namespace BookCenter.Data.Migrations
                     Authors = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     NumberOfPages = table.Column<int>(type: "int", nullable: false),
                     Publisher = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    DatePublished = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    DatePublished = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false),
                     UpdatedAt = table.Column<DateTime>(type: "datetime2", nullable: true),
                     UpdatedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: true),

@@ -11,7 +11,7 @@ namespace BookCenter.Domain.Entities.Books
         public string? Authors { get; set; }
         public int NumberOfPages { get; set; }
         public string? Publisher { get; set; }
-        public DateTime DatePublished { get; set; }
+        public string? DatePublished { get; set; }
 
         public DateTime CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }

@@ -34,8 +34,8 @@ namespace BookCenter.Data.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime>("DatePublished")
-                        .HasColumnType("datetime2");
+                    b.Property<string>("DatePublished")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ISBN")
                         .HasColumnType("nvarchar(max)");
