@@ -28,9 +28,9 @@ namespace BookCenter.Service.Services
             var response = new BaseResponse<Book>();
 
             // create after checking success
-            var mappedCourse = mapper.Map<Book>(bookDto);
+            var mappedBook = mapper.Map<Book>(bookDto);
 
-            var result = await unitOfWork.Books.CreateAsync(mappedCourse);
+            var result = await unitOfWork.Books.CreateAsync(mappedBook);
 
             await unitOfWork.SaveChangesAsync();
 

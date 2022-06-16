@@ -12,15 +12,9 @@ namespace BookCenter.Data.Contexts
     {
         protected readonly IConfiguration Configuration;
 
-        public BookCenterDbContext(IConfiguration configuration)
+        public BookCenterDbContext(DbContextOptions<BookCenterDbContext> options) : base(options)
         {
-            Configuration = configuration;
-        }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder options)
-        {
-            // connect to sql server with connection string from app settings
-            options.UseSqlServer(Configuration.GetConnectionString("WebApiDatabase"));
         }
 
         public virtual DbSet<Book> Books { get; set; }

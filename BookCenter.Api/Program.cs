@@ -12,9 +12,12 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 builder.Services.AddCustomServices();
+builder.Services.AddHttpContextAccessor();
 
 // calling exampleDbContext
-builder.Services.AddDbContext<BookCenterDbContext>();
+builder.Services.AddDbContext<BookCenterDbContext>(
+    options => options.UseSqlServer(builder.Configuration.GetConnectionString("WebApiDatabase"))
+    );
 
 var app = builder.Build();
 
@@ -25,12 +28,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-//calling Services
-using (var scope = app.Services.CreateScope())
-{
-    var dataContext = scope.ServiceProvider.GetRequiredService<BookCenterDbContext>();
-    dataContext.Database.Migrate();
-}
+////calling Services
+//using (var scope = app.Services.CreateScope())
+//{
+//    var dataContext = scope.ServiceProvider.GetRequiredService<BookCenterDbContext>();
+//    dataContext.Database.Migrate();
+//}
 
 app.UseHttpsRedirection();
 
