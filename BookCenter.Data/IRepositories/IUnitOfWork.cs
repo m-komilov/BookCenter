@@ -8,5 +8,6 @@
         IPatentRepository Patents { get; }
 
         Task SaveChangeAsync();
+        Task SaveChangesAsync();
     }
 }

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BookCenter.Service.DTOs.Magazines
+﻿namespace BookCenter.Service.DTOs.Magazines
 {
     public class MagazineForCreationDTO
     {

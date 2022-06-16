@@ -5,7 +5,7 @@ namespace BookCenter.Api.Extensions
 {
     public static class ServiceExtensions
     {
-        public static void AddCustomServices( this IServiceCollection services)
+        public static void AddCustomServices(this IServiceCollection services)
         {
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 

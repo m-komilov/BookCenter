@@ -2,7 +2,7 @@
 {
     public class ErrorResponse
     {
-        #pragma warning disable
+#pragma warning disable
         public ErrorResponse(int? code = null, string message = null)
         {
             Code = code;
