@@ -42,7 +42,7 @@ namespace BookCenter.Data.Repositories
         /// saved all changes
         /// </summary>
         /// <returns></returns>
-        public async Task SaveChangeAsync()
+        public async Task SaveChangesAsync()
         {
             await context.SaveChangesAsync();
         }

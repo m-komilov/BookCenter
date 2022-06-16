@@ -10,3 +10,8 @@ C:\Users\M_Komilov\source\repos\BookCenter\BookCenter.Service\obj\Debug\net6.0\B
 C:\Users\M_Komilov\source\repos\BookCenter\BookCenter.Service\obj\Debug\net6.0\refint\BookCenter.Service.dll
 C:\Users\M_Komilov\source\repos\BookCenter\BookCenter.Service\obj\Debug\net6.0\BookCenter.Service.pdb
 C:\Users\M_Komilov\source\repos\BookCenter\BookCenter.Service\obj\Debug\net6.0\ref\BookCenter.Service.dll
+C:\Users\M_Komilov\source\repos\BookCenter\BookCenter.Service\bin\Debug\net6.0\BookCenter.Data.dll
+C:\Users\M_Komilov\source\repos\BookCenter\BookCenter.Service\bin\Debug\net6.0\BookCenter.Domain.dll
+C:\Users\M_Komilov\source\repos\BookCenter\BookCenter.Service\bin\Debug\net6.0\BookCenter.Data.pdb
+C:\Users\M_Komilov\source\repos\BookCenter\BookCenter.Service\bin\Debug\net6.0\BookCenter.Domain.pdb
+C:\Users\M_Komilov\source\repos\BookCenter\BookCenter.Service\obj\Debug\net6.0\BookCenter.Service.csproj.CopyComplete

@@ -4,6 +4,7 @@ using BookCenter.Domain.Entities.Books;
 using BookCenter.Service.DTOs.Books;
 using System.Linq.Expressions;
 
+#pragma warning disable
 namespace BookCenter.Service.Interfaces
 {
     public interface IBookService

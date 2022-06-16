@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using System.Linq.Expressions;
 
+#pragma warning disable
 namespace BookCenter.Service.Services
 {
     public class BookService : IBookService
